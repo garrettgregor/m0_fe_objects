@@ -41,15 +41,22 @@ console.log(foods)
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
-
+var email = {
+  sender: "helloworld@gmail.com",
+  recipient: "recipient@hotmail.com",
+  date: "January 1, 2024",
+  message: "Lorem ipsum",
+  isEncrypted: false
+}
 
 // Write code that logs all of the 'keys' of the email object
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email))
 
 // Write code that logs all of the 'values' of the email object
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email))
+console.log("isEncrypted is a " + typeof email.isEncrypted)
 
 
 // -------------------
