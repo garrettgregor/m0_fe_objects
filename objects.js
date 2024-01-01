@@ -9,24 +9,24 @@ var foods = {
   apples: 23,
   grapes: 507,
   eggs: 48
-}
+};
 
 // Write code that prints all of the 'keys' of the foods variable
 // you created above:
-console.log(Object.keys(foods))
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable
 // you created above:
-console.log(Object.values(foods))
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable
 // you created above:
-console.log("Grapes = " + foods.grapes)
+console.log("Grapes = " + foods.grapes);
 
 // Write code that adds a food to the foods object.
 // Then, print the updated object:
 foods.hummus = 4
-console.log(foods)
+console.log(foods);
 
 
 // -------------------
@@ -47,16 +47,16 @@ var email = {
   date: "January 1, 2024",
   message: "Lorem ipsum",
   isEncrypted: false
-}
+};
 
 // Write code that logs all of the 'keys' of the email object
 // you created above:
-console.log(Object.keys(email))
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object
 // you created above:
-console.log(Object.values(email))
-console.log("isEncrypted is a " + typeof email.isEncrypted)
+console.log(Object.values(email));
+console.log("isEncrypted is a " + typeof email.isEncrypted);
 
 
 // -------------------
@@ -107,3 +107,30 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var emails = [
+  {
+  sender: "helloworld@gmail.com",
+  recipient: "recipient@hotmail.com",
+  date: "January 1, 2024",
+  message: "Lorem ipsum",
+  isEncrypted: false
+  },
+  {
+  sender: "recipient@hotmail.com",
+  recipient: "helloworld@gmail.com",
+  date: "January 2, 2024",
+  message: "Lorem ipsum response",
+  isEncrypted: true
+  },
+  {
+  sender: "helloworld@gmail.com",
+  recipient: "recipient@hotmail.com",
+  date: "January 3, 2024",
+  message: "Lorem ipsum response response",
+  isEncrypted: false
+  }
+]
+
+console.log(emails)
+console.log(emails[0])
