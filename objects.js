@@ -130,7 +130,7 @@ var emails = [
   message: "Lorem ipsum response response",
   isEncrypted: false
   }
-]
+];
 
-console.log(emails)
-console.log(emails[0])
+console.log(emails);
+console.log(emails[0]);
